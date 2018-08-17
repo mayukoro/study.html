@@ -35,7 +35,7 @@
         <div class="works">
           <section>
            <h1>経歴</h1>
-           <p>出身。出身。出身。出身。出身。出身。出身。出身。出身。
+           <p><span style="color:red;">出身。</span>出身。出身。出身。出身。出身。出身。出身。出身。
                 出身。出身。出身。出身。出身。出身。出身。出身。出身。
            </p>
           </section>
@@ -45,7 +45,60 @@
                 作品作品作品作品作品作品作品作品作品作品作品作品作品作品aaaaabbbbb
             </p>
           </section>
+          <section>
+            <h1>沿革</h1>
+            <table>
+              <thead>
+                <tr><th>年</th><th>出来事</th></tr>
+              </thead>
+              <tbody>
+                <tr><td>2015</td><td>会社設立</td></tr>
+                <tr><td>2018</td><td>サイトリニューアル</td></tr>
+              </tbody>
+            </table>
+            <h2>お問い合わせ</h2>
+            <form>
+              <p>
+                <!-- <label>氏名<input type="text"></label> -->
+                <label for="name">氏名</label>
+                <input type="text" id="name" placeholder="名前を入力してください"> 
+              </p>
+              <p>
+                <label for="pwd">パスワード</label>
+                <input type="password" id="pwd">
+              </p>
+              <p>
+                <label>対象商品</label>
+                <select id="product" size="2" multiple>
+                  <option>ProductA</option>
+                  <option>ProductB</option>
+                  <option selected>ProductC</option>
+                  <option>ProductD</option>
+                  <option>ProductE</option>
+                </select>
+              </p>
+              <fieldset>
+                <legend>お使いのスマホ（複数選択可）</legend>
+                <input type="radio"  name="phone" id="android" checked><label for="android">Android</label>
+                <input type="radio" name="phone" id="iPhon"><label for="iPhon">iPhon</label>
+                <input type="radio" name="phone" id="other"><label for="other">その他</label>
+              </fieldset>
+              <p>
+                <label for="message">メッセージ</label>
+                <textarea id="message" placeholder="140字以内でお願いします"></textarea>  
+              </p>  
+              <p>
+                <button>送信</button>
+              </p>
+            </form>
+            <p><a href="#">TOPへ</a></p>
+          </section>
+          <button id="open">Open</button>
+          <button id="close">Close</button>
         </div>
+        <div class="box1 box">BOX1</div>
+        <div class="box2 box">BOX2</div>
+        <div class="box3 box">BOX3</div>
         <footer>
             <ul>
             <li>
