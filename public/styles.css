@@ -71,10 +71,18 @@ section p{
 }
 .box{
     width:100px;
-    height:100px
+    height:100px;
+    margin-bottom:20px;
+}
+.mini{
+    width:30px;
+    height:30px;
+    background-color:pink;
 }
 .box1{
     background-color:orange;
+    box-shadow:10px 5px rgba(0,0,0,.3);
+    text-shadow:10px 5px rgba(0,0,0,.3);
     /* width:200px;
     height:200px;
     margin-bottom:20px;
@@ -82,10 +90,10 @@ section p{
     margin-right:auto; */
 }
 .box2{
+    box-sizing:border-box;
     background-color:skyblue;
-    position:relative;
-    top:30px;
-    left:30px;
+    /* position:relative */
+    border:5px solid blue;
     /* border-top:2px solid blue; */
     /* border-bottom:2px solid blue; */
     /* border:2px solid blue;
