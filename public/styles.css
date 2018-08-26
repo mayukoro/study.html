@@ -59,11 +59,53 @@ section p{
     border-bottom:1px solid gray;
 }
 .works h1,
+.works h2,
 .works p{
     text-align:left;
 }
 .works>section{
     margin-bottom:40px;
+}
+#open{
+    font-weight:bold;
+}
+.box{
+    width:100px;
+    height:100px;
+    margin-bottom:20px;
+}
+.mini{
+    width:30px;
+    height:30px;
+    background-color:pink;
+}
+.box1{
+    background-color:orange;
+    box-shadow:10px 5px rgba(0,0,0,.3);
+    text-shadow:10px 5px rgba(0,0,0,.3);
+    /* width:200px;
+    height:200px;
+    margin-bottom:20px;
+    margin-left:auto;
+    margin-right:auto; */
+}
+.box2{
+    box-sizing:border-box;
+    background-color:skyblue;
+    /* position:relative */
+    border:5px solid blue;
+    /* border-top:2px solid blue; */
+    /* border-bottom:2px solid blue; */
+    /* border:2px solid blue;
+    border-radius:10px; */
+    /* padding:10px 20px; */
+    /* width:50%;
+    height:50%; */
+}
+.box3{
+    background-color:tomato;
+    display:inline-block;
+    width:100px;
 }
 footer{
     width:400px;
